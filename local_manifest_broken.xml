@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- AOCP Wont EVER Need removals -->
+  <remove-project name="xAOCPx/aocp_device_samsung_quincyatt" />
+  <remove-project name="xAOCPx/aocp_device_samsung_msm8660-common" />
+  <remove-project name="xAOCPx/android_kernel_samsung_msm8660-common" />
+  <remove-project name="xAOCPx/aocp_device_samsung_toro" />
+  <remove-project name="xAOCPx/aocp_device_samsung_quincy-common" />
+  <remove-project name="xAOCPx/aocp_device_samsung_captivatemtd" />
+  <remove-project name="xAOCPx/aocp_device_samsung_maguro" />
+  <remove-project name="xAOCPx/device_sample" />
+  <remove-project name="xAOCPx/aocp_device_samsung_tuna" />
+  <remove-project name="xAOCPx/aocp_device_samsung_crespo" />
+  <remove-project name="xAOCPx/android_device_samsung_d2att" />
+  <remove-project name="xAOCPx/android_kernel_samsung_dempsey" />
+  <remove-project name="xAOCPx/android_kernel_samsung_aries" />
+  <remove-project name="xAOCPx/aocp_device_samsung_aries-common" />
+  <remove-project name="xAOCPx/android_device_samsung_infuse4g" />
+  
+  <!-- Working AOCP Removals -->
+  <remove-project name="xAOCPx/android_device_samsung_d2-common" />
+  <remove-project name="xAOCPx/android_device_samsung_msm8960-common" />
+  <remove-project name="xAOCPx/android_kernel_samsung_d2" />
+  <remove-project name="xAOCPx/vendor_aocp" />
+  <remove-project name="xAOCPx/vendor_samsung" />
+  <remove-project name="xAOCPx/android_build" />
+  <remove-project name="xAOCPx/android_hardware_qcom_audio" />
+  <remove-project name="xAOCPx/android_hardware_qcom_display" />
+  <remove-project name="xAOCPx/hardware_qcom_gps" />
+  <remove-project name="xAOCPx/android_hardware_qcom_media" />
+  
+ 
+  
+  <!-- local projects -->
+  <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" remote="github" revision="jellybean" />
+  <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" remote="github" revision="jellybean" />
+  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="jellybean" />
+  <project path="vendor/aocp" name="PhantomGamers/vendor_aocp" remote="github" revision="jellybean" />
+  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="github" revision="jb" />
+  <project path="build" name="PhantomGamers/aocp_android_build" remote="github" revision="jb" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="jellybean" />
+ 
+  <!-- Kernels -->
+  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="github" revision="jellybean" />
+
+</manifest>
