@@ -40,7 +40,9 @@
   <project path="device/samsung/msm8960-common" name="AOKP/android_device_samsung_msm8960-common" remote="github" revision="jb" />
   <project path="vendor/aocp" name="PhantomGamers/vendor_aocp" remote="github" revision="jellybean" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="github" revision="jb" />
-  <project path="build" name="PhantomGamers/aocp_android_build" remote="github" revision="jb" />
+  <project path="build" name="PhantomGamers/aocp_android_build" remote="github" revision="jb" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="jellybean" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
