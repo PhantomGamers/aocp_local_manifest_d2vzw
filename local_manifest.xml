@@ -9,7 +9,6 @@
   <remove-project name="xAOCPx/aocp_device_samsung_msm8660-common" />
   <remove-project name="xAOCPx/android_kernel_samsung_msm8660-common" />
   <remove-project name="xAOCPx/aocp_device_samsung_toro" />
-  <remove-project name="AOKP/android_device_samsung_n7000" />
   <remove-project name="xAOCPx/aocp_device_samsung_quincy-common" />
   <remove-project name="xAOCPx/aocp_device_samsung_captivatemtd" />
   <remove-project name="xAOCPx/aocp_device_samsung_maguro" />
@@ -20,7 +19,6 @@
   <remove-project name="xAOCPx/android_kernel_samsung_dempsey" />
   <remove-project name="xAOCPx/android_kernel_samsung_aries" />
   <remove-project name="xAOCPx/aocp_device_samsung_aries-common" />
-  <remove-project name="AOKP/android_device_samsung_galaxys2-common" />
   <remove-project name="xAOCPx/android_device_samsung_infuse4g" />
   
   <!-- Working AOCP Removals -->
